@@ -16,7 +16,31 @@ The aim is to create a repository for Red Hat Enterprise Linux 9.0 (RHEL 9.0) co
 
 6.Test the repository by accessing it through a web browser or using ‘yum’ on a client machine configured to use this repository.
 
-### PROGRAM:
+### PROGRAM / COMMANDS:
+```
+Developed by:Samyuktha S
+Register Number:212222240089
+```
+```
+mkdir -p /var/www/html/content/rhel8.0/x86_64/dvd/AppStream
+mkdir -p /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS
+
+cp -r /path/to/rhel8.0/x86_64/dvd/AppStream/* /var/www/html/content/rhel8.0/x86_64/dvd/AppStream/
+cp -r /path/to/rhel8.0/x86_64/dvd/BaseOS/* /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS/
+
+createrepo /var/www/html/content/rhel8.0/x86_64/dvd/AppStream/
+createrepo /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS/
+
+mkdir -p /var/www/html/content/rhel8.0/x86_64/dvd/AppStream
+mkdir -p /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS
+
+cp -r /path/to/rhel8.0/x86_64/dvd/AppStream/* /var/www/html/content/rhel8.0/x86_64/dvd/AppStream/
+cp -r /path/to/rhel8.0/x86_64/dvd/BaseOS/* /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS/
+
+createrepo /var/www/html/content/rhel8.0/x86_64/dvd/AppStream/
+createrepo /var/www/html/content/rhel8.0/x86_64/dvd/BaseOS/
+```
+### OUTPUT:
 ![image](https://github.com/SamyukthaSreenivasan/Creating-a-repository/assets/119475703/513ccd4b-4084-4c32-a353-082c95f1f6d5)
 
 ### RESULT:
