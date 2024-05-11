@@ -1,9 +1,9 @@
-Ex. 1 - CREATING A REPOSITORY
+### Ex. 1 - CREATING A REPOSITORY
 
-AIM:
+### AIM:
 The aim is to create a repository for Red Hat Enterprise Linux 9.0 (RHEL 9.0) containing the AppStream and BaseOS packages for the x86_64 architecture.
 
-PROCEDURE:
+### PROCEDURE:
 1.Accessing the Server: Log in to the server where you want to create the repository.
 
 2.Create the repository packages.
@@ -16,6 +16,8 @@ PROCEDURE:
 
 6.Test the repository by accessing it through a web browser or using ‘yum’ on a client machine configured to use this repository.
 
-PROGRAM:
+### PROGRAM:
+![image](https://github.com/SamyukthaSreenivasan/Creating-a-repository/assets/119475703/513ccd4b-4084-4c32-a353-082c95f1f6d5)
 
-RESULT:
+### RESULT:
+The repository is been created successfully containing the AppStream and BaseOS packages for RHEL 9.0 on the server.
